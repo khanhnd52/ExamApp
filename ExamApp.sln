@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.API.IntegrationTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.API", "src\Identity.API\Identity.API.csproj", "{9E259414-69F0-4943-A169-11EE1704227F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examination.Dtos", "src\BuildingBlocks\Examination.Dtos\Examination.Dtos.csproj", "{FD832C32-B5F5-4392-8357-764BDF19D75A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{9E259414-69F0-4943-A169-11EE1704227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E259414-69F0-4943-A169-11EE1704227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E259414-69F0-4943-A169-11EE1704227F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD832C32-B5F5-4392-8357-764BDF19D75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD832C32-B5F5-4392-8357-764BDF19D75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD832C32-B5F5-4392-8357-764BDF19D75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD832C32-B5F5-4392-8357-764BDF19D75A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{68C84312-C079-4C33-9868-B73FE7084573} = {F9FB2426-58E2-4B06-BC83-26049BE03CCA}
 		{8B4843DC-3193-4F85-860F-D6335B0F6406} = {F9FB2426-58E2-4B06-BC83-26049BE03CCA}
 		{9E259414-69F0-4943-A169-11EE1704227F} = {1A488D94-5C37-4D21-8642-E0EC42D7E8B7}
+		{FD832C32-B5F5-4392-8357-764BDF19D75A} = {1A488D94-5C37-4D21-8642-E0EC42D7E8B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BAD1907E-EECE-4C55-97FD-9728E016C129}
