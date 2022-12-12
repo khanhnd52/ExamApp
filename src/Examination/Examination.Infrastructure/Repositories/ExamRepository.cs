@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Examination.Domain.Aggregate.ExamAgregate;
 using Examination.Domain.AggregateModels.ExamAggregate;
@@ -15,8 +16,8 @@ namespace Examination.Infrastructure.Repositories
             IMongoClient mongoClient,
             IClientSessionHandle clientSessionHandle,
             IOptions<ExamSettings> settings,
-            IMediator mediator, string collection)
-        : base(mongoClient, clientSessionHandle, settings, mediator, collection)
+            IMediator mediator)
+        : base(mongoClient, clientSessionHandle, settings, mediator, Constants.Collections.Exam)
         {
         }
 
