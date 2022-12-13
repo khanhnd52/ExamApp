@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examination.Application.Commands.StartExam
+namespace Examination.Application.Commands.V1.StartExam
 {
     public class StartExamCommand : IRequest<bool>
     {
