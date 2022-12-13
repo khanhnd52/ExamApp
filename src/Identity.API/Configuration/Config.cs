@@ -111,7 +111,7 @@ namespace Identity.API.Configuration
                 new Client
                 {
                     ClientId = "exam_api_swaggerui",
-                    ClientName = "Exam API Swagger UI",
+                    ClientName = "Exam API Swagger Models",
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
 
